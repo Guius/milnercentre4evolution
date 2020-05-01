@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+	<title>Quizz</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+
+	<link rel="stylesheet" type="text/css" href="quizz.css">
+
+
+</head>
+<body>
+
+
+	<div class="container-fluid" id="progress-bar-box">
+		<div class="row">
+			<div class="col-12">
+				<div id="progress-bar">
+					<div id="my-progress-bar"></div>
+				</div>
+			</div>				
+		</div>
+	</div>
+
+	<div class="container-fluid" id="question-box">
+		<div class="row">
+			<div class="col-12 text-center">
+				<p class="lead bigger-title" id="question-text">Which one of these species is most closely related to humans?</p>
+			</div>
+		</div>
+		<br>
+		<div class="row" id="row-to-change">
+			<div class="col-12 col-md-12 col-lg-6 text-center" id="given-0">
+				<div class="answer-img-div">
+					<button class="btn btn-default" onclick="this.blur();" id="btn-given-0"><img src="" id="answer-img-0" class="answer-img"></button>
+				</div>
+			</div>
+			<div class="col-12 col-md-12 col-lg-6 text-center" id="given-1">
+				<div class="answer-img-div">
+					<button class="btn btn-default"  onclick="this.blur();" id="btn-given-1"><img src="" id="answer-img-1" class="answer-img"></button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-12 col-lg-6 text-center" id="given-2">
+				<div class="answer-img-div">		
+					<button class="btn btn-default"  onclick="this.blur();" id="btn-given-2"><img src="" id="answer-img-2" class="answer-img"></button>
+				</div>
+			</div>
+			<div class="col-12 col-md-12 col-lg-6 text-center" id="given-3">
+				<div class="answer-img-div">
+					<button class="btn btn-default"  onclick="this.blur();" id="btn-given-3"><img src="" id="answer-img-3" class="answer-img"></button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="container-fluid" id="feedback-box">
+		<div class="row">
+			<div class="col-12 text-center next-question">
+				<button class="btn btn-default sleek" onclick="this.blur();" id="next-question"></button>
+			</div>
+		</div>
+	</div>
+
+<footer>
+	
+	<p class="lead text-center privacy-text">For testing purposes only, we are collecting data on user behaviour and user location. This data is completely anonymised and will of course not be sold ;)</p>
+
+</footer>
+
+
+</body>
+
+<script type="text/javascript" src="quizz.js"></script>
+
+</html>

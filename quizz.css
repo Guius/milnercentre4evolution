@@ -1,0 +1,102 @@
+.bigger-title {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.bigger-explanatory {
+	font-size: 40px;
+}
+
+
+#progress-bar {
+	height: 100px;
+	background-color: rgb(234, 234, 234);	
+	border-radius: 45px;
+	margin-top: 10px;
+}
+
+#my-progress-bar {
+	height: 100px;
+	background-color: DeepPink;
+	width: 0%;
+	border-radius: 45px;
+}
+
+#img-answer {
+	width: 100%;
+	margin-left: 100%;
+}
+
+
+.answer-img {
+ 	width: 65%;
+	border-radius: 15px;
+}
+
+#question-number {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+#progress-bar-box {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+#arrow-next{
+	height: 337.38px;
+}
+
+
+.button-feedback {
+	padding-top: 40px;
+}
+
+.button-feedback-end {
+	padding-top: 40px;
+	padding-bottom: 40px;	
+}
+
+
+#btn-not-next-question {
+	color: DeepPink;
+}
+
+#btn-next-question {
+	color: rgb(0, 221, 136);
+}
+
+.btn:active {
+  background-color: rgb(242, 242, 242);
+}
+
+#five-of-five {
+	color: rgb(0, 221, 136);
+}
+
+#six-of-six {
+	color: rgb(0, 221, 136);
+}
+
+.make-image-small {
+	width: 30%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+.sleek {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+.privacy-text {
+	padding-top: 5px;
+}

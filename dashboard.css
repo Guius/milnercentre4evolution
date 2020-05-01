@@ -1,0 +1,173 @@
+.title-box {
+	background-color: rgb(242, 242, 242);	
+	padding: 50px;
+}
+
+.more-information-box {
+	padding: 30px;
+}
+
+.bigger-title {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.bigger-explanatory {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.extended-information-txt {
+	font-size: 40px;
+}
+
+.bigger-animal-name {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+.ball {
+  width: 10px;
+  height: 60px;
+  margin-left: 4px;
+  background-color: gray;
+  float: left;
+  border-radius: 25px;
+}
+
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+/*.btn:hover {
+	background-color: rgb(203, 203, 203);
+}*/
+
+
+
+/*.btn {
+	transition: 0.1s;
+}*/
+
+
+
+.image-explanatory {
+	width: auto 100%;
+	border-radius: 20px;
+	max-height: 200px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#extended-information {
+	padding: 50px;
+	display: none;
+	background-color: rgb(242, 242, 242);	
+}
+
+#transition-to-comparison{
+	background-color: #ffd9ca;
+	padding: 50px;
+}
+
+
+#transition-to-comparison-btn {
+	margin-top: 15px;
+}
+
+.image-comparison{
+	width: auto 100%;
+	max-height: 250px;
+	border-radius: 15px;
+}
+
+#comparison-box {
+	padding: 45px;
+	background-color: rgb(249, 249, 249);
+}
+
+.more-information-btn {
+	height: 50px;
+}
+
+#comparison-percentage {
+	font-weight: 900;
+	color: rgb(0, 99, 154);
+}
+
+#ordering {
+	display: none;
+}
+
+
+#image-0-relations {
+	display: none;
+	transition: all 5s;
+}
+
+#image-1-relations {
+	display: none;
+}
+
+#more-information-order-0 {
+	display: none;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+#more-information-order-1 {
+	display: none;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+#less-information-order-0 {
+	display: none;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+#less-information-order-1 {
+	display: none;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+
+.row-buttons {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+#comparison-title {
+	padding-top: 40px;
+	padding-bottom: 90px;
+}
+
+#comparison-DNA {
+	padding-top: 60px;
+}
+
+
+.image-alien {
+	width: 70%;
+	padding-top: 60px;
+	padding-bottom: 60px;	
+	max-width: 200px;
+}
+
+
+
+.privacy-text {
+	padding-top: 5px;
+}
